@@ -921,3 +921,15 @@ a:focus {
   display: inline-block;
   margin-bottom: 30px;
 }
+.gallery-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.gallery-thumb img {
+  overflow: hidden;
+  transition: transform .2s;
+}
+
+.gallery-thumb img:hover{
+  transform: scale(1.1);
+}
